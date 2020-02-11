@@ -1,0 +1,7 @@
+:root {
+    --gradient-color: linear-gradient(to right, #766dff 0%, #88f3ff 100%);
+    --gradient-color-2: linear-gradient(to right, #766dff 0%, #86e8ff 48%, #766dff 100%);
+    --primary-color: #ef476f;
+    --khula: 'Khula', sans-serif;
+    --shadow-color: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,241 @@
+@import url(./_partials/_global.css);
+@import url(./_partials/_fonts.css);
+@import url(./_partials/_variables.css);
+
+header {
+    border-bottom: 1px solid #f6f6ff;
+}
+
+header .nav-container {
+    transition: .3s ease;
+}
+
+header .nav-container:hover {
+    box-shadow: 0 4px 4px #efefef;
+}
+
+header .navbar {
+    padding: 1.5rem 0;
+    transition: background 0.4s, all 0.3s linear;
+}
+
+header .navbar .navbar-brand img {
+    height: 40px;
+    padding-right: 10rem;
+}
+
+header .navbar .navbar-nav .nav-item {
+    margin-right: 1.3rem;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    color: #888888;
+    transition: .3s ease;
+}
+
+header .navbar .navbar-nav .nav-item.seo-button {
+    margin: 0 0 0 3rem;
+}
+
+header .navbar .navbar-nav .nav-item:hover .nav-link {
+    color: #ef476f;
+}
+
+/* Hero Area */
+header .hero-area .text_container {
+    color: #999999;
+}
+
+header .hero-area .text_container .title {
+    padding-right: 0rem;
+}
+
+header .hero-area .text_container .input_group input {
+    width: 70%;
+    height: 40px;
+    margin-right: 1rem;
+    border: 1px solid #eeeeee;
+    color: #999999;
+    padding: 5px 10px;
+}
+
+header .hero-area .text_container .input_group input:focus {
+    outline: none;
+}
+
+/* Services area*/
+
+.services .item-content {
+    border: 1px solid #eeeeee;
+    padding: 2rem 1.5rem .5rem 1.5rem;
+    margin: 16px 0;
+    transition: .3s ease;
+}
+
+.services .item-content:hover {
+    border: 1px solid #ef476f;
+}
+
+.services .item-content:hover i,
+.services .item-content:hover .title {
+    color: #ef476f;
+}
+
+.services .item-content .logo i {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.services .item-content .logo i.fa-rocket {
+    transform: rotate(-45deg);
+}
+
+.services .item-content .title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.services .item-content a {
+    text-decoration: none;
+    color: #373737;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: .3s ease;
+}
+
+.services .item-content:hover a {
+    color: #ef476f;
+}
+
+/* End Services Area */
+/* Work Area */
+.work {
+    padding-bottom: 100px;
+}
+
+.work .text {
+    max-width: 500px;
+    padding-top: 2rem;
+}
+
+.work .text .subtitle {
+    padding-right: 4rem;
+}
+
+.wrok .row .text a {
+    color: #efefef;
+}
+
+.work .img {
+    margin-left: 3rem;
+}
+
+/* End Work Area */
+/* Case Study Area */
+.case {
+    background: #fbfbfb;
+}
+
+.case .items {
+    margin: 0 15px;
+}
+
+.case .items .images {
+    position: relative;
+    border-radius: 10px;
+}
+
+.case .items .images .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: var(--primary-color);
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.case .items .images .overlay .title-1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.case .items .images .overlay .title-2 {
+    font-size: 17px;
+    margin-bottom: 1rem;
+}
+
+.case .items .images .overlay .sub {
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+.case .items .images .overlay a {
+    color: #fff;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.case .items .images .overlay a>i {
+    font-size: 25px;
+}
+
+.case .items .images:hover .overlay {
+    opacity: .85;
+}
+
+/* End Case Area */
+/* Testimonial Area */
+.testimonial .items {
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial .items .title {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.testimonial .items .img {
+    text-align: center;
+}
+
+.testimonial .items .img>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.testimonial .items .c-name {
+    font-size: 18px;
+    padding: 13px 0;
+}
+
+.testimonial .items .designation {
+    font-size: 14px;
+}
+
+.testimonial .owl-theme .owl-dots .owl-dot:focus {
+    outline: none;
+}
+
+.testimonial .owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 3px;
+}
+
+
+.testimonial .owl-theme .owl-dots .owl-dot.active span {
+    background: var(--primary-color);
+}
+
+/* End Testimonial Area */
