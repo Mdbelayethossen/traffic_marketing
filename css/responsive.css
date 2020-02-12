@@ -25,6 +25,13 @@
 
 }
 @media all and (max-width: 991px){
+    header .navbar .navbar-nav .nav-item.seo-button {
+        margin: 0 0 0 0rem;
+        display: block;
+    }
+    header .navbar .navbar-nav .nav-item .nav-link.button{
+        display: inline-block;
+    }
     .navbar-light .navbar-toggler {
         color: rgba(0,0,0,.5);
         border-color: rgba(0,0,0,.2);
@@ -115,5 +122,36 @@
     .brand .brand-logo {
         display: inline-block;
         margin: 15px 40px;
+    }
+}
+@media all and (max-width: 425px){
+    header .navbar {
+        padding: 1rem 2rem;
+    }
+    h2 {
+        font: normal 500 25px/35px var(--khula);
+    }
+    header .hero-area .text_container .input_group {
+        display: block !important;
+    }
+    header .hero-area .text_container .input_group input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .brand {
+        padding: 0 0;
+    }
+    .price .content {
+        margin: 20px 0;
+    }
+    footer .p_100{
+        padding: 40px 0;
+    }
+    footer .footer-items{
+        margin-bottom: 20px;
+    }
+    footer .footer-items{
+        margin-bottom: 20px;
+        text-align: center;
     }
 }
