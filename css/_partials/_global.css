@@ -50,6 +50,18 @@ a{
     z-index: -1;
     border-radius: 4px;
 }
+.btn-2{
+    background: #ef476f;
+    border: 2px solid #ef476f;
+    border-radius: 5px;
+    padding: .5rem 2rem;
+    color: #fff;
+    transition: all .5s ease;
+}
+.btn-2:hover{
+    background: inherit;
+    color: #373737;
+}
 h2{
     font: normal 500 40px/50px var(--khula);
     margin-bottom: 1.5rem;
