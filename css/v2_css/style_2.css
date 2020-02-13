@@ -28,6 +28,14 @@
     color: #fff;
     transition: all .5s ease;
 }
+.btn-3{
+    background: #FFF;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: #373737 !important;
+    line-height: auto;
+}
 .btn-2:hover{
     background: transparent;
     color: #373737;
@@ -100,6 +108,23 @@ h6.title{
     margin: 2.5rem auto;
 }
 /* About area */
+.about_area  .img-box .d-flex{
+    justify-content: center;
+    margin: 0 auto;
+}
+.about_area  .img-box .d-flex img{
+    height: 150px;
+    width: 150px;
+    margin: 0 .5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 10px #f4f4f4;
+    transition: .3s ease;
+}
+.about_area  .img-box .d-flex img:hover{
+    transform: scale(1.02);
+    filter: brightness(1.1);
+    cursor: pointer;
+}
 .about_area .text_area{
     padding: 1.5rem 0;
 }
@@ -111,4 +136,146 @@ h6.title{
     font-weight: 400;
     color: #999999;
     margin-bottom: 1.5rem;
+}
+/*Service*/
+.services .row .item{
+    display: flex;
+    justify-content: center;
+    background: #fbfbfb;
+    text-align: center;
+    padding: 2rem 2rem;
+    transition: .4s ease;
+}
+.services .row .item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image: linear-gradient(#04befe, #4481eb);
+    color: #fff !important;
+}
+.services .item i{
+    padding: 3rem 0 1.8rem 0;
+}
+
+.services .item i::before{
+    font-size: 40px;
+    color: #e1e1e1;
+    line-height: 40px;
+    background-image: linear-gradient(#04befe, #4481eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services .item:hover i::before{
+    background-image: linear-gradient(#FFF, #FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff !important;
+}
+.services .item .title{
+    font-size: 22px;
+    color: #373737;
+    padding-bottom: 3rem;
+}
+.services .item:hover .title{
+    color: #fff;
+}
+/* Testimonial */
+.test{
+    background: #fbfbfb;
+    padding: 50px;
+}
+
+.test .test_text{
+    max-width: 860px;
+    margin: auto;
+    color: #373737;
+}
+
+.test .test_text i::before{
+    color: #4481eb;
+    background-image: linear-gradient(#04befe, #4481eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    border: 2px solid #e8e8e8;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.test .test_text i{
+    margin: 1rem 0 4rem 0;
+}
+.test .m_text{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+.test .name{
+    font-size: 18px;
+    margin-bottom: .5rem;
+}
+.test .designation{
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 1rem;
+}
+/* Case Study */
+.case .items .title{
+    text-align: center;
+    font-size: 18px;
+    color: #373737;
+    padding: 15px 0 10px 0;
+}
+.case .items .sub{
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    padding: 0 0 10px 0;
+}
+.case .items .images .overlay {
+    background: linear-gradient(#04befe, #4481eb);
+}
+
+.case .items .images .overlay a {
+    color: #fff;
+    line-height: 25px;
+    font-size: 15px;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case .items .images .overlay a>i {
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+/* Pricing Area*/
+.price .content {
+    padding-top: 0;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+}
+.price .content:hover{
+    border: 1px solid #f3f3f3;
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px #f4f4f4;
+    filter: brightness(.95);
+}
+.price .content .group {
+    background: #fbfbfb;
+    padding: 1.5rem 0;
+}
+.price .content .pricing {
+    font-size: 45px;
+    color: #4481eb;
+    margin-bottom: 1rem;
+}
+.price .content a{
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #2ecc71;
+}
+.price .content .btn-2:hover{
+    background: #FFF;
+    color: #2ecc71;
 }
