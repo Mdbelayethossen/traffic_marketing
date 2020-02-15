@@ -1,0 +1,19 @@
+header {
+    background: linear-gradient( rgba(4, 190, 254, .8), rgba(68, 129, 235, .8)), url(../../img/vg-3.jpg);
+}
+header .nav-container:hover {
+    box-shadow: none;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    transition: .3s ease;
+}
+header .navbar .navbar-nav{
+    padding: 0 0 0 8rem;
+}
+header .navbar .navbar-nav .nav-item:hover .nav-link {
+    color: #06d6a0;
+}
+header .hero_area {
+    background: none;
+}
