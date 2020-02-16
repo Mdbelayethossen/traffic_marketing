@@ -1,6 +1,15 @@
 header {
     background: linear-gradient( rgba(4, 190, 254, .8), rgba(68, 129, 235, .8)), url(../../img/vg-3.jpg);
 }
+.title{
+    font-size: 24px;
+    color: #373737;
+}
+.sub{
+    font-size: 15px;
+    color: #999999;
+}
+
 header .nav-container:hover {
     box-shadow: none;
 }
@@ -45,9 +54,99 @@ header .hero_area .d-flex a i::before{
 }
 header .slider-control{
     position: relative;
+    z-index: 10;
 }
 header .slider-control .owl-next{
     position: absolute;
-    top: 50%;
+    top: -10rem;
     right: 10px;
+    color: #fff;
+}
+header .slider-control .owl-prev{
+    position: absolute;
+    top: -10rem;
+    left: 10px;
+    transform: rotate(180deg);
+    color: #fff;
+}
+header .slider-control .owl-prev:focus,
+header .slider-control .owl-prev:hover,
+header .slider-control .owl-next:focus,
+header .slider-control .owl-next:hover{
+    outline: none;
+    cursor: pointer;
+}
+.seo p{
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}
+.seo .input-group{
+    display: flex;
+    justify-content: space-between;
+}
+.seo .input-group input {
+    margin: 10px auto;
+    height: 42px;
+    width: 25%;
+    border: 1px solid #e8e8e8;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+.seo .input-group input:focus {
+    outline: none;
+}
+
+.seo .input-group input::placeholder {
+    color: #999999;
+}
+
+.seo .input-group button {
+    margin: auto;
+}
+/*About Area */
+.about .row .about-content{
+    display: flex;
+    align-items: center;
+}
+.about .about-text{
+   padding-left: 2rem;
+}
+.about .img{
+    width: 80%;
+}
+/*Service Area */
+.services .text-box{
+    border: 2px solid #e8e8e8;
+    text-align: center;
+    padding: 2rem 1rem;
+    transition: all .3s ease;
+}
+.services .text-box:hover{
+    border: 2px solid #06d6a0;
+    transform: scale(1.02);
+}
+.services .text-box .num{
+    font-size: 70px;
+    color: #999999;
+    line-height: 70px;
+    padding-bottom: 16px;
+}
+.services .text-box h5{
+    font-size: 20px;
+    color: #373737;
+    line-height: 30px;
+    padding-bottom: 8px;
+}
+.services .text-box a{
+    display: flex;
+    justify-content: center;
+    color: #373737;
+}
+.services .text-box a:hover{
+    color: #06d6a0;
+}
+.services .text-box a i{
+    margin-left: 5px;
 }

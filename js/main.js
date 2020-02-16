@@ -44,7 +44,7 @@ $(document).ready(function () {
     // Hero Area Owl
 	$(' .hero_area .owl-carousel').owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         nav: false,
         autoplayHoverPause:true,
