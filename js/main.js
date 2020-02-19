@@ -77,6 +77,42 @@ $(document).ready(function () {
         owl.trigger('prev.owl.carousel', [300]);
     })
 
+    // Create a new instance of Slidebars
+    var controller = new slidebars();
 
+
+    // Initialize Slidebars
+    controller.init();
+
+    // Left Slidebar controls
+    $( '.js-open-left-slidebar' ).on( 'click', function ( event ) {
+        event.stopPropagation();
+        controller.open( 'slidebar-1' );
+    } );
+
+    $( '.js-close-left-slidebar' ).on( 'click', function ( event ) {
+        event.stopPropagation();
+        controller.close( 'slidebar-1' );
+    } );
+
+    $( '.js-toggle-left-slidebar' ).on( 'click', function ( event ) {
+        event.stopPropagation();
+        controller.toggle( 'slidebar-1' );
+    } );
+
+
+    // Close any
+    $( controller.events ).on( 'opened', function () {
+        $( '[canvas="container"]' ).addClass( 'js-close-any-slidebar' );
+    } );
+
+    $( controller.events ).on( 'closed', function () {
+        $( '[canvas="container"]' ).removeClass( 'js-close-any-slidebar' );
+    } );
+
+    $( 'body' ).on( 'click', '.js-close-any-slidebar', function ( event ) {
+        event.stopPropagation();
+        controller.close();
+    } );
 
 })

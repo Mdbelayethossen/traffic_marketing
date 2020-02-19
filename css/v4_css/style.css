@@ -1,0 +1,55 @@
+header {
+    background: linear-gradient(rgba(7, 59, 76, .5), rgba(7, 59, 76, .5)), url(../../img/h4/bg.jpg);
+}
+button{
+    border: none;
+    outline: none;
+    background: transparent;
+    transition: .3s ease;
+}
+button:focus{
+    outline: none;
+}
+header .navbar .nav-item {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s ease;
+}
+header .navbar .nav-item button{
+    background: transparent;
+    border: none;
+}
+header .navbar .nav-item button:focus{
+    outline: none;
+}
+header .navbar .nav-item  i{
+    color: #fff;
+}
+header .navbar .navbar-brand img {
+    height: 40px;
+    padding-right: 0rem;
+}
+header .js-close-any-slidebar{
+    opacity: .4;
+}
+[off-canvas] {
+    background-color: #fff;
+    color: #373737;
+}
+header .main-nav .brand-area{
+    justify-content: space-between;
+}
+header .main-nav .nav-link{
+    padding: .5rem 0;
+    font-size: 20px;
+    color: #373737;
+    transition: .5s ease;
+}
+header .main-nav .nav-link:hover{
+    padding: .5rem 0;
+    font-size: 20px;
+    color: #06d6a0;
+}
