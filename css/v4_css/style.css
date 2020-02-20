@@ -1,5 +1,6 @@
-header {
-    background: linear-gradient(rgba(7, 59, 76, .5), rgba(7, 59, 76, .5)), url(../../img/h4/bg.jpg);
+header .canvas-main{
+    background: linear-gradient(rgba(7, 59, 76, .5), rgba(7, 59, 76, .5)), url(../../img/h4/bg.jpg) no-repeat center fixed;
+    transition: all .5s linear;
 }
 button{
     border: none;
@@ -28,12 +29,41 @@ header .navbar .nav-item button:focus{
 header .navbar .nav-item  i{
     color: #fff;
 }
+header .navbar .nav-item  i{
+    color: #fff;
+}
+header .navbar .nav-item .search-box .input-group{
+    transition: all .4s linear;
+}
+header .navbar .nav-item .search-box:hover .input-group{
+    background: #073b4c;
+    padding: .4rem .5rem;
+    border-radius: 5px;
+}
+header .navbar .nav-item .search-box .input-group input{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #f2f2f2;
+    opacity: 0;
+}
+header .navbar .nav-item .search-box:hover .input-group input{
+    opacity: 1;
+}
+header .navbar .nav-item .search-box .input-group input:focus{
+    outline: none;
+    border: none;
+}
+header .navbar .nav-item .search-box .input-group input::placeholder{
+    color: #f2f2f2;
+}
 header .navbar .navbar-brand img {
     height: 40px;
     padding-right: 0rem;
 }
+/* Sidebar area*/
 header .js-close-any-slidebar{
-    opacity: .4;
+    opacity: .2;
 }
 [off-canvas] {
     background-color: #fff;
@@ -52,4 +82,56 @@ header .main-nav .nav-link:hover{
     padding: .5rem 0;
     font-size: 20px;
     color: #06d6a0;
+}
+header .main-nav .social .title{
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+header .main-nav .social .icon-box{
+    display: block;
+}
+header .main-nav .social .icon-box a{
+    display: inline-block;
+}
+
+/* Sidebar area end */
+header .hero-content{
+    padding: 7rem 0 10rem 0;
+    align-items: center;
+}
+header .hero-content .textarea{
+    max-width: 810px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+header .hero-content .textarea h6{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #fff;
+}
+header .hero-content .textarea p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    padding: 0 8rem;
+    margin-bottom: 2rem;
+}
+header .hero-content .seo-form .input-group{
+    justify-content: space-around;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+header .hero-content .seo-form .input-group input{
+    width: 24%;
+    padding: .5rem 1rem;
+    background: #073b4c;
+    border: none;
+    border-radius: 5px;
+}
+header .hero-content .seo-form .input-group input:focus{
+    outline: none;
 }

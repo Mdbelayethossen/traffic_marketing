@@ -25,55 +25,96 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div canvas="container" class="bg-transparent">
-                <nav class="navbar">
-                 <ul class="nav-item">
-                     <li>
-                        <button class="js-open-left-slidebar">
-                            <i class="fas fa-bars"></i>
-                        </button>
-                     </li>
-                     <li><a href="#" class="navbar-brand"><img src="./img/Logo.png" alt="" class="img-fluid"></a></li>
-                     <li><a href="#"><i class="fas fa-search"></i></a></li>
-                 </ul>
-                </nav>
-                <h2>Side Navbar Initiated</h2>
-            </div>
-            <div off-canvas="slidebar-1 left overlay" class="main-nav">
-                <div class="c-container py-4 px-5">
-                    <div class="d-flex flex-row brand-area mb-5">
-                        <div class="logo"><img src="./img/Logo.png" alt="" class="img-fluid" style="height: 30px;"></div>
-                        <button class="js-close-left-slidebar"><i class="fas fa-times"></i> Close</button>
-                    </div>
-                    <ul class="nav flex-column pt-4 pb-5">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="./index.html">HomePage V1</a>
-                              <a class="dropdown-item" href="./index2.html">HomePage V2</a>
-                              <a class="dropdown-item" href="./index3.html">HomePage V3</a>
-                            </div>
-                          </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Case Study</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
-                        </li>
-                      </ul>
+
+  <header>
+    <!-- Container -->
+    <div canvas="container" class="canvas-main">
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav-item">
+              <li>
+                 <button class="js-open-left-slidebar">
+                     <i class="fas fa-bars"></i>
+                 </button>
+              </li>
+              <li><a href="#" class="navbar-brand"><img src="./img/Logo.png" alt="" class="img-fluid"></a></li>
+              <li class="search-box">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search this blog">
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary" type="button">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
                 </div>
-                
+              </li>
+          </ul>
+         </nav>
+         <div class="hero-content">
+          <div class="seo-form">
+            <div class="textarea">
+              <h6 class="title">Before you create any great
+                content figure out to market it first.</h6>
+              <p>Traffic is a great platform to stand out your website. Credibly leverage existing web-enabled 
+                change rather than leading-edge collaboration and idea-sharing. </p>
+            </div>
+            <div class="input-group">
+                <input type="text" name="Name" placeholder="Your Website Link">
+                <input type="text" name="Name" placeholder="Keywords">
+                <input type="email" name="Name" placeholder="Your Email">
+                <button class="btn-2" type="submit">Check Now</button>
             </div>
         </div>
-    </header>
+         </div>
+      </div>
+  </div>
+  <!--============Sidebar Main===========-->
+  <div off-canvas="slidebar-1 left overlay" class="main-nav">
+      <div class="c-container py-4 pl-5">
+          <div class="d-flex flex-row brand-area mb-5 pr-4">
+              <div class="logo"><img src="./img/Logo.png" alt="" class="img-fluid" style="height: 30px;"></div>
+              <button class="js-close-left-slidebar"><i class="fas fa-times"></i> Close</button>
+          </div>
+          <ul class="nav flex-column pt-4 pb-5">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./index.html">HomePage V1</a>
+                    <a class="dropdown-item" href="./index2.html">HomePage V2</a>
+                    <a class="dropdown-item" href="./index3.html">HomePage V3</a>
+                  </div>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Case Study</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="social">
+              <div class="title">Get Connected</div>
+              <div class="icon-box">
+                <a href="#"><i class="fab fa-facebook-f"></i> facebok</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-linkedin-in"></i> linkedin</a>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebok</a>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebok</a>
+              </div>
+            </div>
+      </div>
+      
+  </div>
+  <!--=======Sidebar Main End============-->
+  </header>
+
+
+
     <script src="./vendor/jquery_waypoint/jquery.3.4.1.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
     <script src="./vendor/slidebar/slidebars.min.js"></script>
