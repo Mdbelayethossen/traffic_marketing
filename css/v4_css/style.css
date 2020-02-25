@@ -1,12 +1,20 @@
+header{
+    background: none;
+}
 header .canvas-main{
     background: linear-gradient(rgba(7, 59, 76, .5), rgba(7, 59, 76, .5)), url(../../img/h4/bg.jpg) no-repeat center fixed;
-    transition: all .5s linear;
+    transition: .5s ease;
 }
 button{
     border: none;
     outline: none;
     background: transparent;
     transition: .3s ease;
+}
+
+.btn-2:hover {
+    background: whitesmoke;
+    color: #373737;
 }
 button:focus{
     outline: none;
@@ -18,6 +26,9 @@ header .navbar .nav-item {
     justify-content: space-between;
     align-items: center;
     transition: .5s ease;
+}
+header .navbar .nav-item .navbar-brand{
+    margin-left: 12rem;
 }
 header .navbar .nav-item button{
     background: transparent;
@@ -62,8 +73,8 @@ header .navbar .navbar-brand img {
     padding-right: 0rem;
 }
 /* Sidebar area*/
-header .js-close-any-slidebar{
-    opacity: .2;
+header .canvas-main.js-close-any-slidebar{
+    background: linear-gradient(rgba(7, 59, 76, .9), rgba(7, 59, 76, .9)), url(../../img/h4/bg.jpg) no-repeat center fixed;
 }
 [off-canvas] {
     background-color: #fff;
