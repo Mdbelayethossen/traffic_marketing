@@ -400,3 +400,63 @@ footer p {
 footer .newslatter .social .social-icons a {
     display: block;
 }
+footer .footer-text > a.features:hover{
+    color: #62a1f3 !important;
+}
+/* Responsive Css */
+@media all and (max-width: 1199px){
+    .services .row .item{
+        min-height: 281px;
+    }
+    .blog .blog_content{
+        min-height: 390px;
+    }
+}
+@media all and (max-width: 991px){
+    .about_area .row .col-md-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about_area .row .col-md-6:first-child{
+        padding-bottom: 2rem;
+    }
+    .services.p_100{
+        padding: 0 0 100px 0;
+    }
+    footer .footer-items{
+        margin-bottom: 1rem;
+    }
+    footer .content.p_100{
+        padding: 100px 0 0 0;
+    }
+    footer .footer-text > a.features{
+        width: 48%;
+        display: inline-block;
+    }
+    footer .newslatter .social .social-icons a {
+        display: inline-block;
+    }
+}
+@media all and (max-width: 767px){
+    header .hero_area .content .content_text{
+        text-align: center;
+    }
+    header .hero_area .content h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .services .row .col-md-6{
+        margin-bottom: 1rem;
+    }
+    .blog .blog_content{
+        min-height: auto;
+        margin-bottom: 1rem;
+    }
+    .price .content{
+        margin-bottom: 1.5rem;
+    }
+    footer .footer-text > a.features{
+        width: auto;
+        margin-right: 1rem;
+    }
+}
