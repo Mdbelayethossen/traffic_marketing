@@ -63,3 +63,8 @@ footer .newslatter .input-group button {
 footer .newslatter .social .social-icons a {
     display: inline-block;
 }
+footer .newslatter .social .social-icons a:hover,
+footer .newslatter .social .social-icons a:hover i
+{
+    color: #06d6a0 !important;
+}

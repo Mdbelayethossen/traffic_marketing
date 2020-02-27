@@ -1,0 +1,144 @@
+header .hero_area {
+    background: linear-gradient(rgba(7, 59, 76, 0.5), rgba(7, 59, 76, 0.5)), url(../img/s_details.png) no-repeat center;
+    padding: 150px 0;
+}
+
+.about_service {
+    margin-bottom: 100px;
+}
+
+.about_service .img-box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.about_service .img-box img {
+    height: auto;
+    max-height: 380px;
+    box-shadow: 0px 3px 4px 2px #d0d0d0;
+}
+
+.about_service .img-box .img-1 {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 2;
+}
+
+.about_service .img-box .img-2 {
+    position: absolute;
+    top: -4rem;
+    right: 2rem;
+    z-index: 1;
+}
+
+.about_service .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_service .content h3 {
+    font-size: 26px;
+    color: #373737;
+}
+
+.about_service .content p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.works {
+    padding-bottom: 100px;
+}
+
+.works .content h4 {
+    color: #373737;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.works .content p {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.works img {
+    box-shadow: 0px 3px 4px 2px #d0d0d0;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.works img:hover {
+    filter: brightness(.85);
+    transform: scale(1.02);
+}
+
+/* Case study */
+.case {
+    background: transparent;
+}
+
+.case .section-title {
+    padding: 0 0 50px 0;
+}
+
+.case h3 {
+    color: #373737;
+    font-size: 24px;
+}
+.case .img-box {
+    position: relative;
+}
+
+.case .img-box .all-container .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #10d7a3;
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.case .img-box:hover .all-container .overlay {
+    opacity: 0.9;
+}
+
+.case .img-box .all-container .overlay .title {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.case .img-box .all-container .overlay .title-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+}
+
+.case .img-box .all-container .overlay a {
+    color: #fff;
+}
+
+/*Case Area End*/
+/*Pricing Area*/
+.price .section-title h3{
+    color: #373737;
+}
+/*Pricing Area End*/
+.cta{
+    background: linear-gradient(rgba(7, 59, 76, 0.6), rgba(7, 59, 76, 0.5)), url(../img/s-bg-3.png) no-repeat center;
+}
