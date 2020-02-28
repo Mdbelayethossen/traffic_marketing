@@ -19,3 +19,58 @@ header .hero_area .content p{
     color: #fff;
     font-size: 22px;
 }
+.case .row a.load_btn{
+    font-size: 14px;
+    color: #06d6a0;
+    transition: all .5s ease;
+}
+.case .row a.load_btn > i{
+    margin-left: 8px;
+}
+.case .row a.load_btn:hover{
+    color: teal;
+}
+
+.cta{
+    background: linear-gradient(rgba(7, 59, 76, 0.6), rgba(7, 59, 76, 0.5)), url(../img/s-bg-3.png) no-repeat center;
+    padding: 4rem 0;
+}
+.cta .cta_text {
+    max-width: 770px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.cta .title{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+.cta .cta_text p {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+.cta .btn-2{
+    background: #06d6a0 !important;
+    color: #fff;
+}
+.cta .btn-2:hover {
+    background: whitesmoke !important;
+    color: #06d6a0;
+}
+footer .newslatter .input-group button {
+    color: #fff;
+    background: #06d6a0;
+    border: 2px solid #06d6a0;
+}
+footer .newslatter .social .social-icons a {
+    display: inline-block;
+}
+footer .newslatter .social .social-icons a:hover,
+footer .newslatter .social .social-icons a:hover i
+{
+    color: #06d6a0 !important;
+}
